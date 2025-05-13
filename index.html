@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Flappy Bird Game</title>
+  <title>Flappy Bird</title>
   <style>
     body {
       margin: 0;
@@ -32,7 +32,7 @@
   </style>
 </head>
 <body>
-  <h3>FlappyBird Game</h3>
+  <h3>FlappyBird</h3>
   <div class="random">
     <canvas id="canvas" width="288" height="512"></canvas>
   </div>
@@ -48,11 +48,11 @@
     var pipeNorth = new Image();
     var pipeSouth = new Image();
 
-    bird.src = "images/bird.png";
-    bg.src = "images/bg.png";
-    fg.src = "images/fg.png";
-    pipeNorth.src = "images/pipeNorth.png";
-    pipeSouth.src = "images/pipeSouth.png";
+    bird.src = "https://ipfs.io/ipfs/bafybeiakqsffp4xq7h3uw5m77hpm3qphftvm5r3b3tgqocfwz74adkvemq";
+    bg.src = "https://ipfs.io/ipfs/bafybeibyml4vvybyune73vaz7urh75cnk3bri54yfbp45wfgywzmbvapdy";
+    fg.src = "https://ipfs.io/ipfs/bafybeictgfa4p3ecuqd3mo327kapd4j3swnbonhf7y5sf3yrchijtwolvy";
+    pipeNorth.src = "https://ipfs.io/ipfs/bafybeihdqs64aos3pzm5z3uehdmybmsza3fn75r4bzsmihanpeybh5rcfq";
+    pipeSouth.src = "https://ipfs.io/ipfs/bafybeib4pxer6rlyw7y3tqynh2jysizjbpvq5lcdt2hhdz5xgyilc3ymdm";
 
     // variables
     var gap = 85;
@@ -65,8 +65,8 @@
     // audio files
     var fly = new Audio();
     var scor = new Audio();
-    fly.src = "sounds/fly.mp3";
-    scor.src = "sounds/score.mp3";
+    fly.src = "https://ipfs.io/ipfs/bafkreiejel2xypcbuumebdzkvbczkxsn5eiv7pk6yq5df44o3oix7ug2f4";
+    scor.src = "https://ipfs.io/ipfs/bafkreigcfpditz7slztqx7lbgyij3jafxql52opklpm7gkyqdj7ibkibvu";
 
     // control
     document.addEventListener("keydown", moveUp);
